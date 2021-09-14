@@ -1,24 +1,30 @@
 //experiences
 const experiences = [
   {
-    companyName: "Self",
-    period: "August 2020 - December 2020",
-    role: "learner",
+    companyName: "Self Learning",
+    period: "August 2020",
+    role: "Beginner Noob :P",
   },
   {
     companyName: "Finnove Technology",
-    period: "January 2021 - May 2021",
-    role: "intern",
+    period: "Jan 2021",
+    role: "Intern",
   },
   {
     companyName: "Nassec Pvt. Ltd",
-    period: "May 2021 - current",
+    period: "May 2021",
     role: "Junior frontend developer",
   },
 ];
 
 for (experience of experiences) {
-  document.getElementById("experience").innerHTML += experience.companyName;
+  document.querySelector("ul").innerHTML += `<li>
+            <div class="timestamp">
+              ${experience.period} <br/>${experience.companyName}
+            </div>
+            <div class="item-title">${experience.role}</div>
+</li>
+`;
 }
 
 //interests
