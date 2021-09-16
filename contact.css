@@ -1,0 +1,36 @@
+.contact {
+  background: #bfa2db;
+  padding: 30px;
+}
+
+svg {
+  width: 50px;
+  fill: #f3f1f5;
+  margin: 40px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: #f0d9ff;
+}
+
+hr {
+  margin: 40px 80px;
+  background-color: #f3f1f5;
+}
+.texts {
+  text-align: center;
+  font-size: 16px;
+}
+
+.mail-text {
+  color: #f3f1f5;
+  padding-top: 20px;
+}
+.created-by {
+  color: #f0d9ff;
+  font-size: 14px;
+}
