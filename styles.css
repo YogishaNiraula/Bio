@@ -3,7 +3,7 @@ html {
   background-color: #f3f1f5;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h1,
 h2,
@@ -29,5 +29,14 @@ nav a {
   text-decoration: none;
   font-size: 17px;
 }
-
+.title {
+  color: #7f7c82;
+  font-size: 2rem;
+  font-weight: 100;
+}
+@media (min-width: 1800px) {
+  .title {
+    font-size: 3rem;
+  }
+}
 /* colors: F0D9FF,BFA2DB,7F7C82 */
