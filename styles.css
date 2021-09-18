@@ -5,7 +5,14 @@ html {
   margin: 0;
   font-family: sans-serif;
 }
-
+h1,
+h2,
+p,
+ol,
+ul,
+li {
+  margin: 0;
+}
 nav {
   background-color: #7f7c82;
   overflow: hidden;
