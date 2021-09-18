@@ -1,5 +1,5 @@
 .introduction {
-  height: 80vh;
+  /* height: 65vh; */
   padding: 100px;
   color: #7f7c82;
   font-weight: 500;
@@ -21,4 +21,35 @@
   font-size: 18px;
   margin: 20px 0px 0px 0px;
   line-height: 30px;
+}
+
+/* responsive media */
+@media (min-width: 1800px) {
+  .introduction {
+    padding: 270px;
+  }
+  .hello {
+    font-size: 10rem;
+  }
+  .name {
+    font-size: 38px;
+  }
+  .description {
+    margin-top: 60px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .introduction {
+    /* height: 100vh; */
+    padding: 25px;
+  }
+  .hello {
+    font-size: 5rem;
+  }
+
+  .description {
+    margin-top: 10px;
+  }
 }

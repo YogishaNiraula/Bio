@@ -6,7 +6,7 @@
 svg {
   width: 50px;
   fill: #f3f1f5;
-  margin: 40px;
+  margin: 30px;
 }
 
 .icons {
@@ -33,4 +33,57 @@ hr {
 .created-by {
   color: #f0d9ff;
   font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+  .contact {
+    padding: 25px;
+  }
+
+  svg {
+    width: 20px;
+    margin: 10px;
+  }
+
+  hr {
+    margin: 20px 30px;
+  }
+
+  .texts {
+    font-size: 14px;
+  }
+
+  .mail-text {
+    padding-top: 10px;
+  }
+
+  .created-by {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .contact {
+    padding: 150px;
+  }
+
+  svg {
+    width: 80px;
+    margin: 10px;
+  }
+
+  hr {
+    margin: 20px 30px;
+  }
+
+  .texts {
+    font-size: 22px;
+  }
+
+  .mail-text {
+    padding-top: 40px;
+  }
+
+  .created-by {
+    font-size: 20px;
+  }
 }
