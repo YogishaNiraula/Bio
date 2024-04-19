@@ -1,12 +1,22 @@
 .contact {
   background: #bfa2db;
-  padding: 30px;
+  padding: 30px 0 0 0;
 }
 
 svg {
   width: 50px;
   fill: #f3f1f5;
   margin: 30px;
+}
+
+.footer-svg {
+  width: 40px;
+  fill: #f3f1f5;
+  margin: 24px;
+}
+
+.footer-svg:hover {
+  fill: #fff;
 }
 
 .icons {
@@ -18,8 +28,8 @@ a {
 }
 
 hr {
-  margin: 40px 80px;
   background-color: #f3f1f5;
+  height: 0.15px;
 }
 .texts {
   text-align: center;
@@ -31,21 +41,21 @@ hr {
   padding-top: 20px;
 }
 .created-by {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #f0d9ff;
   font-size: 14px;
+  padding: 16px;
 }
 @media only screen and (max-width: 600px) {
   .contact {
-    padding: 25px;
+    padding: 24px 0 0 0;
   }
 
   svg {
     width: 20px;
     margin: 10px;
-  }
-
-  hr {
-    margin: 20px 30px;
   }
 
   .texts {
@@ -63,16 +73,12 @@ hr {
 
 @media (min-width: 1800px) {
   .contact {
-    padding: 150px;
+    padding: 44px 0 0 0;
   }
 
   svg {
     width: 80px;
     margin: 10px;
-  }
-
-  hr {
-    margin: 20px 30px;
   }
 
   .texts {

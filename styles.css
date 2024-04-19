@@ -3,7 +3,7 @@ html {
   background-color: #f3f1f5;
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 h1,
 h2,
@@ -32,7 +32,7 @@ nav a {
 .title {
   color: #7f7c82;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 600;
 }
 @media (min-width: 1800px) {
   .title {

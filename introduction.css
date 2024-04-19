@@ -14,19 +14,21 @@
 
 .name {
   font-size: 26px;
-  margin: 50px 0px 0px 0px;
+  font-weight: 400;
+  margin: 44px 0px 0px 0px;
 }
 
 .description {
-  font-size: 18px;
-  margin: 20px 0px 0px 0px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 16px 0px 0px 0px;
   line-height: 30px;
 }
 
 /* responsive media */
 @media (min-width: 1800px) {
   .introduction {
-    padding: 270px;
+    padding: 44px 100px;
   }
   .hello {
     font-size: 10rem;
@@ -35,8 +37,8 @@
     font-size: 38px;
   }
   .description {
-    margin-top: 60px;
-    font-size: 30px;
+    margin-top: 44px;
+    font-size: 2rem;
     line-height: 40px;
   }
 }
@@ -50,6 +52,6 @@
   }
 
   .description {
-    margin-top: 10px;
+    margin-top: 1rem;
   }
 }
